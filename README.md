@@ -4,7 +4,7 @@
 ![Home Page](Screenshots/home.png)
 
 ### Products Page
-![Products Page](Screenshots/products.png)
+![Products Page](Screenshots/product.png)
 
 ### Cart Page
 ![Cart Page](Screenshots/cart.png)
