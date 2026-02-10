@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="store.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .navbar {
+            background-color: #1a1a1a;
+        }
+        
+        .navbar-brand {
+            color: #ff6600;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .navbar-brand:hover {
+            color: #ff9900;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #ff9900;
+        }
+        .navbar {
+            background-image: url('gaming-background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .news{
+            margin-top: 10px;
+   background-color: black;
+   color: white;
+
+}
+.btn3{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    color: black;
+    font-weight: 600;
+}
+.news input{
+   height: 45px;
+   width: 80%;
+   border: 2px solid white;
+   outline: none;
+   cursor: pointer;
+   background: black;
+   color: white;  
+   margin-top: 40px;
+   font-weight: 600;
+}
+.new::placeholder{
+   color: white;
+   height: 80%;
+   width: 80%;
+   cursor: pointer;
+}
+.new p{
+   margin: 0;
+}
+.fab{
+   cursor: pointer;
+   padding-right: 5px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="store.html">
+                <img src="img/logo.jpg" alt=" " width="50" height="50" class="mr-2">
+                GameChamber
+            </a>
+            
+            <!-- Navbar toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class = 'search-box'>
+                <input class = "search-text" type="text" placeholder = "Search Anything">
+              <a href="#" class = "search-btn">
+                <i class="fas fa-search"></i>
+              </a>
+              </div>
+            
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Carts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner pt-5">
+          <div class="carousel-item active">
+            <img src="img/slide1.webp" alt="Los Angeles" class="d-block" style="width:100%" height="450">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide2.webp" alt="Chicago" class="d-block" style="width:100%" height="450">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide3.webp" alt="New York" class="d-block" style="width:100%" height="450">
+          </div>
+          <div class="carousel-item">
+           <img src="img/slide4.webp" alt="New York" class="d-block" style="width:100%" height="450">
+         </div>
+         <div class="carousel-item">
+           <img src="img/slide5.webp" alt="New York" class="d-block" style="width:100%" height="450">
+         </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div><br><br>
+    <section class="product">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1 style="color: #dfd6a1;; font-weight: 700;">Today's Offers..!!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                 <div class="card border-0 bg-light mb-2 ">
+                    <div class="card-body">
+                        <a href="laptop.html" ><img src="store/lapdisp.png" class="img-fluid" alt="ntg"><br><br><br></a>
+                    </div>
+                    <h5>LAPTOPS</h5>
+                    <p><strike> 25%</strike>   Upto   40% <br><br></p>
+                 </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2 ">
+                       <div class="card-body">
+                          <a href="offmon.html"><img src="store/sysdisp.png" class="img-fluid" alt="ntg"></a>
+                       </div><br><br>
+                       <h5>MONITORS</h5>
+                       <p><strike> 20%</strike>   Upto  35% <br></p><br>
+                    </div>
+                   </div>
+                   <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2 ">
+                       <div class="card-body">
+                         <a href="headset.html"><img src="headset/h1.png" class="img-fluid" alt="ntg"></a>
+                       </div>
+                      <br><br> <h5>headset & Audio</h5>
+                       <p><strike> 20%</strike>   Upto  58% </p><br>
+                    </div>
+                   </div>
+                   <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2 ">
+                       <div class="card-body">
+                          <a href="joystick.html"> <img src="store/contdisp.png" class="img-fluid" alt="ntg"></a>
+                       </div>
+                       <br><br><h5>CONTROLLERS</h5>
+                       <p><strike> 38%</strike>  Upto   50% </p><br>
+                    </div>
+                   </div>
+                   <br>
+                   <div class="row">
+                   <div class="col-lg-6 text-center m-auto">
+                   </section>
+                    <section class="news py-5">
+                        <div class="container py-5">
+                          <div class="row">
+                            <div class="col-lg-9 m-auto text-center">
+                              <h1>Join Our Secert Society</h1>
+                              <input type="text" class="px-3" placeholder="Enter Your Email">
+                              <button class="btn3">Submit</button> 
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-11">
+                              <div class="row">
+                                <div class="col-lg-3 py-3">
+                                 <br> <h4 class="pb-3">Information</h4>
+                                  <p>All products</p>
+                                  <p>Tems & Conditions</p>
+                                  <p>Privacy Policy</p>
+                                  <p>BLOG</p>
+                                </div>
+                                <div class="col-lg-3 py-3">
+                                 <br> <h4 class="pb-3">My account</h4>
+                                  <p>My Account</p>
+                                  <p><a href="return.html">Return Policy</a></p>
+                                  <p>Contact us</p>
+                                </div>
+                                <div class="col-lg-3 py-3">
+                                  <br> <h4 class="pb-3">OUR COMPANT</h4>
+                                   <p>About</p>
+                                   <p>New Products</p>
+                                   <p>Stack</p>
+                                   <p><a href="cod.html">Cash on Delivery</a></p>
+                               </div>
+                                <div class="col-lg-3 py-3">
+                                  <br> <h4 class="pb-3"> SOCIAL MEDIA</h4>
+                                  <span><i class="fab fa-facebook fa-2x"></i> </span>
+                                  <span><i class="fab fa-instagram fa-2x"></i> </span>
+                                  <span><i class="fab fa-twitter fa-2x"></i> </span>
+                                  <span><i class="fab fa-telegram fa-2x"></i> </span>
+                                  <span><i class="fab fa-google-plus fa-2x"></i> </span>
+                                  
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

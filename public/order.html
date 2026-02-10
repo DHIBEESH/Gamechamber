@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Gaming Accessories</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f4f4f4;
+    }
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="mb-4">Buy Gaming Accessories</h2>
+    <form action="http://localhost:8000/order" method="post">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text"name="name" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email"name="email"  class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Shipping Address:</label>
+        <textarea class="form-control" name="address"  id="address" placeholder="Enter your shipping address" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="product">Select Product:</label>
+        <select class="form-control" name="product" id="product" required>
+          <option value="">Select a product</option>
+          <option value="gaming-laptop">Gaming Laptop</option>
+          <option value="gaming-monitor">Gaming Monitor</option>
+          <option value="gaming-headset">Gaming Headset</option>
+          <option value="gaming-controller">Gaming Controller</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="name">Model:</label>
+        <input type="text" name="model" class="form-control" id="name" placeholder="Your Model" required>
+      </div>
+      <div class="form-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" class="form-control" id="quantity" placeholder="Enter quantity" required>
+      </div>
+      <div class="form-group">
+        <label for="payment-method">Payment Method:</label>
+        <select name="payment" class="form-control" id="payment-method" required>
+          <option value="">Select payment method</option>
+          <option value="credit-card">Credit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="credit-card">Debit Card</option>
+          <option value="paypal">Cash on Delivery</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Buy Now</button>
+    </form>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
